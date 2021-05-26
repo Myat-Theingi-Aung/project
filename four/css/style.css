@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -9,6 +10,7 @@ html{
 body{
     width: 100%;
     background-color: #007bff;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
 }
@@ -114,16 +116,21 @@ body{
 }
 .container .intro .inner-two .one h1{
     color: white;
+    /*font-weight: bold;*/
+    font-size: 28px;
     margin-bottom: 10px;
-    font-size: 25px;
     padding-bottom: 10px;
-    width: 30%;
-    border-bottom: 1px solid white;
+    width: 60%;
+    border-bottom: 2px solid rgba(250,250,250,1);
 }
 .container .intro .inner-two .one p{
     color: white;
+    font-weight: normal;
+    /*letter-spacing: 1px;*/
+    word-spacing: 2px;
+    font-size: 14px;
     margin-bottom: 20px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .container .intro .inner-two .two{
     margin-right: 70px;
@@ -140,13 +147,15 @@ body{
 }
 .container .intro .inner-two .two .text p{
     color: white;
+    font-weight: normal;
     margin-bottom: 10px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .container .intro .inner-two .two .text button{
     margin-top: 15px;
     color: #007bff;
     font-weight: bold;
+    margin-bottom: 50px;
     border: none;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -160,6 +169,7 @@ body{
 }
 .container .intro .inner-three{
     width: 100%;
+    margin-top: 50px;
     display: flex;
 }
 .container .intro .inner-three .one{
@@ -180,8 +190,9 @@ body{
 }
 .container .intro .inner-three .two p{
     color: white;
+    font-weight: normal;
     margin-bottom: 15px;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 .container .intro .inner-three .two button{
     margin-top: 15px;
@@ -193,7 +204,7 @@ body{
     text-transform: uppercase;
 }
 .container .intro .rule{
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgba(250,250,250,0.3);
     margin-right: 60px;
 }
 
@@ -208,15 +219,17 @@ body{
 .container .features .inner-one h1{
     color: white;
     padding-bottom: 15px;
+    font-size: 28px;
     display: inline-block;
     width: 50%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgba(250,250,250,1);
 
 }
 .container .features .inner-one p{
     color: white;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+    margin-bottom: 40px;
 }
 .container .features .inner-two{
     width: 100%;
@@ -241,7 +254,8 @@ body{
 .container .features .inner-two .one p{
     color: white;
     margin-left: 30px;
-    line-height: 1.4;
+    font-weight: normal;
+    line-height: 1.8;
 }
 .container .features .inner-two .two{
     width: 45%;
@@ -260,8 +274,9 @@ body{
 }
 .container .features .inner-two .two p{
     color: white;
+    font-weight: normal;
     margin-left: 30px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .container .features .inner-three{
     width: 100%;
@@ -286,8 +301,9 @@ body{
 }
 .container .features .inner-three .one p{
     color: white;
+    font-weight: normal;
     margin-left: 30px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .container .features .inner-three .two{
     width: 45%;
@@ -306,11 +322,12 @@ body{
 }
 .container .features .inner-three .two p{
     color: white;
+    font-weight: normal;
     margin-left: 30px;
-    line-height: 1.4;
+    line-height: 1.8;
 }
 .container .features .rule{
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgba(250,250,250,0.3);
     margin-right: 60px;
 }
 
@@ -325,15 +342,17 @@ body{
 .container .gallery .inner-one h1{
     color: white;
     padding-bottom: 15px;
+    font-size: 28px;
     display: inline-block;
     width: 50%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgba(250,250,250,0.5);
 
 }
 .container .gallery .inner-one p{
     color: white;
-    padding-top: 10px;
-    margin-bottom: 20px;
+    font-weight: lighter;
+    padding-top: 20px;
+    margin-bottom: 50px;
 }
 .container .gallery .inner-two{
 
@@ -358,7 +377,7 @@ body{
 }
 .container .gallery .inner-three{
     width: 99%;
-    margin-top: 20px;
+    margin-top: 30px;
     padding-right: 60px;
     columns: 230px 3;
 }
@@ -385,7 +404,7 @@ body{
     margin-bottom: 20px;
 }
 .container .gallery .rule{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(250,250,250,0.3);
     margin-right: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -401,16 +420,18 @@ body{
     margin-top: 40px;
 }
 .container .contact .inner-one h1{
-    color: white;
+    color: rgba(250,250,250,1);
     padding-bottom: 15px;
+    font-size: 28px;
     display: inline-block;
     width: 50%;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgba(250,250,250,1);
 
 }
 .container .contact .inner-one p{
     color: white;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-weight: lighter;
     margin-bottom: 20px;
 }
 .container .contact .inner-two{
