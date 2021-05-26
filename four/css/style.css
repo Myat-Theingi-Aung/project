@@ -1,0 +1,498 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    background-color: #007bff;
+}
+.container{
+}
+.container .sidebar{
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: #2279BD;
+    margin-left:60px;
+}
+.container .sidebar .one{
+
+}
+.container .sidebar .one .inner-one {
+    text-align: center;
+    margin: 30px 0px;
+}
+.container .sidebar .one .inner-one img{
+    width: 100px;
+    border-radius: 10px;
+}
+.container .sidebar .one .inner-one h1{
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+.container .sidebar .one .inner-one p{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.container .sidebar .one .inner-two{
+    text-align: center;
+
+}
+.container .sidebar .one .inner-two .list{
+
+}
+.container .sidebar .one .inner-two .list .list-item{
+    list-style-type: none;
+    padding: 10px;
+    border-top: 1px solid #dbd8d8;
+    border-bottom: 1px solid #dbd8d8;
+}
+.container .sidebar .one .inner-two .list .list-item:hover{
+    background-color: #c2bebe;
+}
+.container .sidebar .one .inner-two .list .list-item a{
+    color: white;
+    text-decoration: none;
+}
+.container .sidebar .one .inner-three{
+    padding: 40px 0px;
+    text-align: center;
+    border-bottom: 1px solid #dbd8d8;
+}
+.container .sidebar .one .inner-three .link{
+    color: white;
+    text-decoration: none;
+}
+.container .sidebar .one .inner-three .link .fab{
+    background-color:#17a2b8;
+    padding: 7px;
+    width: 30px;
+    margin-right: 5px;
+
+}
+.container .sidebar .one .inner-three .link .fab:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.4s;
+}
+.container .sidebar .one .lower{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.container .sidebar .one .lower small{
+    color: white;
+}
+
+/*intro*/
+.container .intro{
+    width: 70%;
+    float: right;
+}
+.container .intro .inner-one{
+
+}
+.container .intro .inner-one img{
+    width: 90%;
+    height: 270px;
+
+}
+.container .intro .inner-two{
+    margin-top: 20px;
+}
+.container .intro .inner-two .one{
+    margin-right: 60px;
+
+}
+.container .intro .inner-two .one h1{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    width: 30%;
+    border-bottom: 1px solid white;
+}
+.container .intro .inner-two .one p{
+    color: white;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.container .intro .inner-two .two{
+    margin-right: 70px;
+    display: flex;
+    width: 100%;
+
+}
+.container .intro .inner-two .two .text{
+    width: 60%;
+}
+.container .intro .inner-two .two .text h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+.container .intro .inner-two .two .text p{
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.container .intro .inner-two .two .text button{
+    margin-top: 15px;
+    color: #007bff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.container .intro .inner-two .two .image{
+    width: 30%;
+}
+.container .intro .inner-two .two .image img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.container .intro .inner-three{
+    width: 100%;
+    display: flex;
+}
+.container .intro .inner-three .one{
+   width: 30%;
+}
+.container .intro .inner-three .one img{
+    width: 250px;
+}
+.container .intro .inner-three .two{
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.container .intro .inner-three .two h1{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.container .intro .inner-three .two p{
+    color: white;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.container .intro .inner-three .two button{
+    margin-top: 15px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.container .intro .rule{
+    border-bottom: 1px solid white;
+    margin-right: 60px;
+}
+
+/*features*/
+.container .features{
+    width: 70%;
+    float: right;
+}
+.container .features .inner-one{
+    margin-top: 40px;
+}
+.container .features .inner-one h1{
+    color: white;
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 50%;
+    border-bottom: 2px solid white;
+
+}
+.container .features .inner-one p{
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.container .features .inner-two{
+    width: 100%;
+    display: flex;
+}
+.container .features .inner-two .one{
+    width: 45%;
+    height: 200px;
+    background-color: rgba(250, 250, 250, 0.1);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.container .features .inner-two .one .fas{
+    color: white;
+    font-size: 50px;margin: 30px 30px 10px 30px;
+
+}
+.container .features .inner-two .one h4{
+    color: white;
+    margin: 0px 0px 5px 30px;
+}
+.container .features .inner-two .one p{
+    color: white;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+.container .features .inner-two .two{
+    width: 45%;
+    height: 200px;
+    background-color: rgba(250, 250, 250, 0.1);
+}
+.container .features .inner-two .two .far{
+    color: white;
+    font-size: 50px;margin: 30px 30px 10px 30px;
+
+}
+.container .features .inner-two .two h4{
+    color: white;
+    margin: 0px 0px 5px 30px;
+
+}
+.container .features .inner-two .two p{
+    color: white;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+.container .features .inner-three{
+    width: 100%;
+    display: flex;
+    margin-bottom: 60px;
+}
+.container .features .inner-three .one{
+    width: 45%;
+    height: 200px;
+    background-color: rgba(250, 250, 250, 0.1);
+    margin-right: 10px;
+
+}
+.container .features .inner-three .one .fas{
+    color: white;
+    font-size: 50px;margin: 30px 30px 10px 30px;
+
+}
+.container .features .inner-three .one h4{
+    color: white;
+    margin: 0px 0px 5px 30px;
+}
+.container .features .inner-three .one p{
+    color: white;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+.container .features .inner-three .two{
+    width: 45%;
+    height: 200px;
+    background-color: rgba(250, 250, 250, 0.1);
+}
+.container .features .inner-three .two .far{
+    color: white;
+    font-size: 50px;margin: 30px 30px 10px 30px;
+
+}
+.container .features .inner-three .two h4{
+    color: white;
+    margin: 0px 0px 5px 30px;
+
+}
+.container .features .inner-three .two p{
+    color: white;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+.container .features .rule{
+    border-bottom: 1px solid white;
+    margin-right: 60px;
+}
+
+/*gallary*/
+.container .gallery{
+    width: 70%;
+    float: right;
+}
+.container .gallery .inner-one{
+    margin-top: 40px;
+}
+.container .gallery .inner-one h1{
+    color: white;
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 50%;
+    border-bottom: 2px solid white;
+
+}
+.container .gallery .inner-one p{
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.container .gallery .inner-two{
+
+}
+.container .gallery .inner-two .list{
+   text-align: center;
+    margin-right: 100px;
+}
+.container .gallery .inner-two .list-item{
+    display: inline;
+    list-style-type: none;
+}
+.container .gallery .inner-two .list-item a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.container .gallery .inner-two .list-item a:hover{
+    color: blue;
+}
+.container .gallery .inner-three{
+    width: 99%;
+    margin-top: 20px;
+    padding-right: 60px;
+    columns: 230px 3;
+}
+/*.container .gallery .inner-three .pretty{*/
+/*    width: 30%;*/
+/*    background-color: red;*/
+/*    height: 200px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.container .gallery .inner-three .sexy{*/
+/*    width: 30%;*/
+/*    background-color: darkred;*/
+/*    height: 200px;*/
+/*    margin-right: 10px;*/
+/*}*/
+/*.container .gallery .inner-three .beach{*/
+/*    width: 30%;*/
+/*    background-color: orange;*/
+/*    height: 200px;*/
+/*}*/
+.container .gallery .inner-three img{
+    width: 260px;
+    margin-bottom: 20px;
+}
+.container .gallery .rule{
+    border-bottom: 1px solid white;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*contact*/
+
+.container .contact{
+    width: 70%;
+    float: right;
+}
+.container .contact .inner-one{
+    margin-top: 40px;
+}
+.container .contact .inner-one h1{
+    color: white;
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 50%;
+    border-bottom: 3px solid white;
+
+}
+.container .contact .inner-one p{
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.container .contact .inner-two{
+    margin-right: 60px;
+}
+.container .contact .inner-two .form{
+    width: 100%;
+}
+.container .contact .inner-two .form .one{
+}
+.container .contact .inner-two .form .one .name{
+    width: 50%;
+    float: left;
+}
+.container .contact .inner-two .form .one .name input{
+    width: 90%;
+    border: 1px solid rgba(250,250,250,1);
+    outline: none;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(250, 250, 250, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+.container .contact .inner-two .form .one .email{
+    width: 50%;
+    float: right;
+}
+.container .contact .inner-two .form .one .email input{
+    width: 100%;
+    border: 1px solid rgba(250,250,250,1);
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(250, 250, 250, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+.container .contact .inner-two .two{
+
+}
+.container .contact .inner-two .form .two .subject{
+
+}
+.container .contact .inner-two .form .two .subject input{
+    width: 100%;
+    border: 1px solid rgba(250,250,250,1);
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.1);
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+
+}
+.container .contact .inner-two .form .three{
+
+}
+.container .contact .inner-two .form .three .message{
+
+}
+.container .contact .inner-two .form .three .message textarea{
+    width: 100%;
+    border: 1px solid rgba(250,250,250,1);
+    margin-top: 20px;
+    outline: none;
+    padding: 10px;
+    background-color: rgba(250, 250, 250, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+}
+.container .contact .inner-two .form .four{
+
+ }
+.container .contact .inner-two .form .four .btn{
+    text-align: center;
+}
+.container .contact .inner-two .form .four .btn button{
+    margin-top: 15px;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 50px;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}

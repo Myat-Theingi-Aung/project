@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f2f2;
+    width: 100%;
+}
+.stick{
+    position: sticky;
+    top: 0px;
+}
+
+.nav{
+    width: 100%;
+    background-color: #a00303;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    box-shadow: 0 8px 6px -6px black;
+    /*box-shadow: 2px 2px 5px #fff;*/
+
+}
+.nav .logo{
+    margin: 10px 10px 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav .logo h1{
+    color: white;
+    padding-left: 5px;
+}
+.nav .logo img{
+    width: 60px;
+    border-radius: 5px;
+}
+.nav .nav-list {
+    margin-right: 100px;
+
+}
+.nav .nav-list .list-item{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+
+}
+.nav .nav-list .list-item a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav .nav-list .list-item a:hover{
+    font-size: 23px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav .nav-list .list-item label:hover{
+    font-size: 23px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nav .nav-list .list-item{
+    font-size: 20px;
+    color: white;
+
+}
+.nav .nav-list .list-item input{
+    padding: 8px;
+    outline: none;
+    border-radius:5px;
+    border: none;
+}
+
+button:hover{
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.upper{
+}
+.upper .inner-one{
+    display: flex;
+    height: 230px;
+}
+.upper .inner-one .one{
+    width: 50%;
+    background-color: darkred;
+    margin-left: 40px;
+}
+
+.upper .inner-one .one h1{
+    padding: 90px 0px;
+    text-align: center;
+    color: white;
+}
+.upper .inner-one .two{
+    width: 50%;
+    background-color: white;
+    margin-right: 40px;
+}
+.upper .inner-one .two p{
+    padding: 60px 40px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.upper .inner-two{
+    height: 230px;
+    display: flex;
+}
+
+.upper .inner-two .one{
+    width: 50%;
+    background-color: white;
+    margin-left: 40px;
+    padding: 40px 40px;
+}
+.upper .inner-two .one h3{
+    color: darkred;
+    margin-bottom: 10px;
+}
+.upper .inner-two .one p{
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.upper .inner-two .one button{
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    float: right;
+}
+
+.upper .inner-two .two{
+    width: 50%;
+    background-color: darkred;
+    margin-right: 40px;
+    padding: 40px 40px;
+}
+.upper .inner-two .two img{
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.upper .inner-two .two p{
+    color: white;
+    padding: 10px 20px;
+}
+
+.upper .inner-three{
+    height: 230px;
+    display: flex;
+
+}
+.upper .inner-three .one{
+    width: 47%;
+    margin-left: 40px;
+}
+.upper .inner-three .one img{
+    width: 625px;
+    height: 230px;
+}
+
+.upper .inner-three .two
+{
+    width: 50%;
+    background-color: white;
+    margin-right: 40px;
+    padding: 40px 40px;
+}
+.upper .inner-three .two h3{
+    text-align: center;
+
+}
+.upper .inner-three .two p{
+    line-height: 1.3;
+    padding: 10px;
+}
+.upper .inner-three .two span{
+    color: blue;
+}
+.upper .inner-three .two .container{
+    text-align: center;
+}
+.upper .inner-three .two button{
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+}
+.middle{
+    display: flex;
+    height: 374px;
+    margin-top: 20px;
+}
+.middle .inner-one{
+    width: 70%;
+    margin-left: 40px;
+    background-color: white;
+    padding: 40px 40px;
+}
+.middle .inner-one h3{
+    color: darkred;
+    padding-bottom: 10px;
+}
+.middle .inner-one p{
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+.middle .inner-one button{
+    margin-top: 5px;
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    float: right;
+}
+.middle .inner-two{
+    width: 30%;
+    margin-right: 40px;
+}
+.middle .inner-two img{
+    width: 374px;
+}
+
+.lower{
+    display: flex;
+}
+.lower .inner-one{
+    width: 25%;
+    margin: 20px 50px 20px 100px;
+    border: 1px solid darkcyan;
+}
+.lower .inner-one .card{
+
+}
+.lower .inner-one .card .card-header{
+    background-color: darkcyan;
+    padding: 10px 0;
+}
+.lower .inner-one .card .card-header h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.lower .inner-one .card .card-header p{
+    color: white;
+    text-align: center;
+}
+.lower .inner-one .card .card-body{
+    padding-top: 20px ;
+
+}
+.lower .inner-one .card .card-body p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.lower .inner-one .card .card-body .btn{
+    text-align: center;
+}
+.lower .inner-one .card .card-body button{
+    margin-top: 15px;
+    background-color: darkcyan;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.lower{
+    display: flex;
+}
+.lower .inner-two{
+    width: 25%;
+    margin: 20px 50px 20px 0px;
+    border: 1px solid darkcyan;
+}
+.lower .inner-two .card{
+
+}
+.lower .inner-two .card .card-header{
+    background-color: darkcyan;
+    padding: 10px 0;
+}
+.lower .inner-two .card .card-header h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.lower .inner-two .card .card-header p{
+    color: white;
+    text-align: center;
+}
+.lower .inner-two .card .card-body{
+    padding-top: 20px ;
+
+}
+.lower .inner-two .card .card-body p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.lower .inner-two .card .card-body .btn{
+    text-align: center;
+}
+.lower .inner-two .card .card-body button{
+    margin-top: 15px;
+    background-color: darkcyan;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.lower{
+    display: flex;
+}
+.lower .inner-three{
+    width: 25%;
+    margin: 20px 50px 20px 0px;
+    border: 1px solid darkcyan;
+}
+.lower .inner-three .card{
+
+}
+.lower .inner-three .card .card-header{
+    background-color: darkcyan;
+    padding: 10px 0;
+}
+.lower .inner-three .card .card-header h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.lower .inner-three .card .card-header p{
+    color: white;
+    text-align: center;
+}
+.lower .inner-three .card .card-body{
+    padding-top: 20px ;
+
+}
+.lower .inner-three .card .card-body p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.lower .inner-three .card .card-body .btn{
+    text-align: center;
+}
+.lower .inner-three .card .card-body button{
+    margin-top: 15px;
+    background-color: darkcyan;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: none;
+    margin-bottom: 20px;
+
+}
+
+.footer small{
+    margin: 20px;
+    display: block;
+    text-align: center;
+}
+
